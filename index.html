@@ -1,121 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hemant Tiwari & Associates | Tax Consultant & Advocate</title>
-<meta name="description" content="Hemant Tiwari & Associates - GST, Income Tax, ITR, Accounting, Tax Consultancy and Legal Services in Ayodhya, Uttar Pradesh.">
-<style>
-:root{--navy:#061b31;--navy2:#092943;--gold:#d9a52b;--light:#f7f9fc;--text:#182333;--muted:#647084;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff}
-a{text-decoration:none;color:inherit}.top{background:var(--navy);color:#fff;padding:9px 5%;display:flex;justify-content:space-between;font-size:14px;gap:20px;flex-wrap:wrap}
-.header{display:flex;align-items:center;justify-content:space-between;padding:15px 5%;background:#fff}.brand{display:flex;align-items:center;gap:18px}.brand img{width:88px;height:88px;object-fit:contain;border-radius:50%}.brand h1{margin:0;color:var(--navy);font-family:Georgia,serif;font-size:28px;line-height:1.05;letter-spacing:.5px}.brand p{margin:7px 0 0;font-size:14px;font-weight:bold;color:#39485b;letter-spacing:.5px}
-.btn{display:inline-block;background:var(--gold);color:#fff;padding:13px 22px;border-radius:5px;font-weight:bold}.nav{background:var(--navy);display:flex;justify-content:center;gap:34px;padding:14px 5%;color:#fff;font-weight:bold;font-size:14px;position:sticky;top:0;z-index:10}.nav a:hover{color:var(--gold)}
-.hero{background:var(--navy);color:#fff;display:grid;grid-template-columns:42% 58%;min-height:470px}.hero-copy{padding:75px 7%}.eyebrow{color:var(--gold);font-weight:bold;font-size:18px;letter-spacing:.5px}.hero h2{font-size:45px;line-height:1.05;margin:18px 0 20px}.hero p{font-size:18px;line-height:1.6;color:#e4ebf3}.hero-actions{display:flex;gap:15px;margin-top:28px;flex-wrap:wrap}.outline{border:1px solid var(--gold);background:transparent}.hero-img{background:url('office-3.jpeg') center/cover no-repeat;min-height:470px}
-.trust{display:grid;grid-template-columns:repeat(4,1fr);background:#071f36;color:#fff;padding:22px 5%;gap:20px}.trust div{border-right:1px solid #496078;padding:0 20px}.trust div:last-child{border:0}.trust b{display:block;color:var(--gold);margin-bottom:5px}.section{padding:70px 5%}.center{text-align:center}.kicker{color:var(--gold);font-weight:bold}.title{font-family:Georgia,serif;font-size:34px;color:var(--navy);margin:8px 0 12px}.line{width:45px;height:3px;background:var(--gold);margin:0 auto 35px}
-.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid #dfe5ec;border-radius:8px;padding:28px;background:#fff;box-shadow:0 8px 25px rgba(10,35,60,.05);transition:.2s}.card:hover{transform:translateY(-4px)}.icon{font-size:34px}.card h3{color:var(--navy);margin:15px 0 10px}.card p{color:var(--muted);line-height:1.6;margin:0}
-.about{background:var(--light)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about-img{width:100%;height:430px;object-fit:cover;border-radius:10px}.about-text p{line-height:1.7;color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:25px}.stat{background:#fff;padding:17px;border-radius:7px;text-align:center}.stat strong{display:block;font-size:28px;color:var(--gold)}.stat span{font-size:13px;color:var(--muted)}
-.contact{background:var(--navy);color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.contact h2{color:#fff}.contact-info p{line-height:1.8}.contact form{display:grid;gap:12px}.contact input,.contact textarea{width:100%;padding:14px;border:1px solid #8191a4;border-radius:5px;background:#fff;font-size:15px}.contact textarea{min-height:130px;resize:vertical}.footer{background:#041426;color:#fff;text-align:center;padding:18px;font-size:13px}.whatsapp{position:fixed;right:22px;bottom:22px;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 15px rgba(0,0,0,.3);z-index:20}
-@media(max-width:850px){.hero{grid-template-columns:1fr}.hero-copy{padding:50px 7%}.hero h2{font-size:36px}.hero-img{min-height:320px}.trust{grid-template-columns:1fr 1fr}.trust div:nth-child(2){border-right:0}.services{grid-template-columns:1fr 1fr}.about-grid,.contact-grid{grid-template-columns:1fr}.nav{gap:15px;overflow:auto;justify-content:flex-start}.brand h1{font-size:21px}.brand img{width:65px;height:65px}}
-@media(max-width:560px){.top{font-size:12px}.header{padding:12px 4%}.brand{gap:10px}.brand h1{font-size:18px}.brand p{font-size:11px}.header .btn{display:none}.hero h2{font-size:30px}.trust,.services,.stats{grid-template-columns:1fr}.trust div{border-right:0;border-bottom:1px solid #496078;padding:12px 0}.about-img{height:300px}.section{padding:50px 5%}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hemant Tiwari & Associates - Tax Consultant & Advocate in Ayodhya. GST, Income Tax, Accounting, TDS, Tax Audit, Notice Reply, Litigation and Business Registration services.">
+  <meta name="theme-color" content="#071b33">
+  <title>Hemant Tiwari & Associates | Tax Consultant & Advocate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="top"><span>📍 Ayodhya, Uttar Pradesh</span><span>✉️ ayodhyahemant@gmail.com &nbsp; | &nbsp; ☎️ +91 63946 26691</span></div>
-
-<header class="header">
-  <div class="brand">
-    <img src="logo.jpg" alt="Hemant Tiwari & Associates Logo">
-    <div><h1>HEMANT TIWARI<br>& ASSOCIATES</h1><p>TAX CONSULTANT & ADVOCATE</p></div>
-  </div>
-  <a class="btn" href="#contact">GET IN TOUCH</a>
-</header>
-
-<nav class="nav">
-  <a href="#home">HOME</a><a href="#about">ABOUT US</a><a href="#services">SERVICES</a><a href="#why">WHY CHOOSE US</a><a href="#contact">CONTACT US</a>
-</nav>
-
-<section class="hero" id="home">
-  <div class="hero-copy">
-    <div class="eyebrow">TRUSTED TAX SOLUTIONS</div>
-    <h2>YOUR GROWTH,<br>OUR RESPONSIBILITY</h2>
-    <p>Complete GST, Income Tax, Accounting & Legal Solutions Under One Roof.</p>
-    <div class="hero-actions">
-      <a class="btn" href="tel:+916394626691">☎ CALL NOW</a>
-      <a class="btn outline" href="https://wa.me/916394626691?text=Hello%20Hemant%20Tiwari%20%26%20Associates%2C%20I%20need%20professional%20tax%20services.">◉ WHATSAPP</a>
-    </div>
-  </div>
-  <div class="hero-img"></div>
-</section>
-
-<section class="trust" id="why">
-  <div><b>EXPERIENCE</b>6+ Years of Professional Experience</div>
-  <div><b>TRUST & CONFIDENTIALITY</b>Your information handled responsibly</div>
-  <div><b>TIMELY SERVICES</b>On-time filing & compliance support</div>
-  <div><b>CLIENT FOCUSED</b>Practical solutions for every client</div>
-</section>
-
-<section class="section" id="services">
-  <div class="center"><div class="kicker">WHAT WE DO</div><div class="title">Our Services</div><div class="line"></div></div>
-  <div class="services">
-    <div class="card"><div class="icon">📄</div><h3>GST Services</h3><p>GST Registration, GST Return Filing, GST Refund, LUT, E-Way Bill and compliance support.</p></div>
-    <div class="card"><div class="icon">🧾</div><h3>Income Tax Services</h3><p>ITR Filing, Tax Planning, TDS Return, Tax Audit and income-tax related assistance.</p></div>
-    <div class="card"><div class="icon">📊</div><h3>Accounting & Book Keeping</h3><p>Book Keeping, Accounting, P&L and Balance Sheet preparation.</p></div>
-    <div class="card"><div class="icon">📈</div><h3>Tax Consultancy</h3><p>Tax planning, tax-saving strategies and professional advisory.</p></div>
-    <div class="card"><div class="icon">⚖️</div><h3>Legal / Advocate Services</h3><p>Consultation, drafting, notices, appeals and other legal matters.</p></div>
-    <div class="card"><div class="icon">🤝</div><h3>Other Services</h3><p>PAN, TAN, DSC, MSME, IEC, Trademark and other professional services.</p></div>
-  </div>
-</section>
-
-<section class="section about" id="about">
-  <div class="about-grid">
-    <img class="about-img" src="office-4.jpeg" alt="Hemant Tiwari & Associates Office">
-    <div class="about-text">
-      <div class="kicker">ABOUT US</div><div class="title">Hemant Tiwari & Associates</div><div class="line" style="margin-left:0"></div>
-      <p>We provide professional support in GST, Income Tax, Accounting and Legal matters. Our focus is accurate, reliable and timely service with confidentiality and client satisfaction.</p>
-      <div class="stats">
-        <div class="stat"><strong>6+</strong><span>Years Experience</span></div>
-        <div class="stat"><strong>GST</strong><span>Compliance Support</span></div>
-        <div class="stat"><strong>ITR</strong><span>Tax Filing Support</span></div>
-        <div class="stat"><strong>24×7</strong><span>Enquiry Access</span></div>
+  <!-- Top contact bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <a href="https://maps.app.goo.gl/fJdxTgR2VahqE3kR9" target="_blank" rel="noopener">
+        <span>📍</span> Darshan Nagar, Abhay Singh Colony, Kudha Keshvpur Uparhar, Ayodhya - 224135
+      </a>
+      <div class="topbar-right">
+        <a href="mailto:ayodhyahemant@gmail.com">✉ ayodhyahemant@gmail.com</a>
+        <a href="tel:+916394626691">☎ +91 63946 26691</a>
+        <span>◷ Mon - Sat: 10:00 AM - 7:00 PM</span>
       </div>
     </div>
   </div>
-</section>
 
-<section class="section contact" id="contact">
-  <div class="contact-grid">
-    <div class="contact-info">
-      <div class="kicker">CONTACT US</div><div class="title">Let's Discuss Your Requirement</div>
-      <p>📍 Ayodhya, Uttar Pradesh</p>
-      <p>☎️ +91 63946 26691</p>
-      <p>✉️ ayodhyahemant@gmail.com</p>
-      <p>💬 WhatsApp available for quick enquiry</p>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Hemant Tiwari and Associates Home">
+        <span class="brand-mark">HT</span>
+        <span class="brand-text">
+          <strong>HEMANT TIWARI<br><em>&amp; ASSOCIATES</em></strong>
+          <small>TAX CONSULTANT &amp; ADVOCATE</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <div class="nav-dropdown">
+          <a href="#services">Services <span>⌄</span></a>
+          <div class="dropdown-menu">
+            <a href="#services">GST Services</a>
+            <a href="#services">Income Tax</a>
+            <a href="#services">Accounting</a>
+            <a href="#services">TDS &amp; Compliance</a>
+            <a href="#services">Tax Audit</a>
+            <a href="#services">Notice Reply &amp; Litigation</a>
+            <a href="#services">Business Registration</a>
+          </div>
+        </div>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact Us</a>
+        <a class="nav-cta" href="#contact">Get In Touch</a>
+      </nav>
     </div>
-    <div>
-      <form onsubmit="sendMail(event)">
-        <input id="name" placeholder="Your Name" required>
-        <input id="email" type="email" placeholder="Your Email" required>
-        <textarea id="message" placeholder="Tell us about your requirement" required></textarea>
-        <button class="btn" type="submit" style="border:0;cursor:pointer">SEND MESSAGE ✈</button>
-      </form>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-image" aria-hidden="true">
+        <div class="office-glow"></div>
+        <div class="office-card">
+          <div class="office-lamp"></div>
+          <div class="office-screen"></div>
+          <div class="office-desk"></div>
+          <div class="scales">⚖</div>
+          <div class="office-nameplate">HEMANT TIWARI<br><span>&amp; ASSOCIATES</span><small>TAX CONSULTANT &amp; ADVOCATE</small></div>
+        </div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">TRUSTED TAX SOLUTIONS</p>
+          <h1>Your Growth,<br><span>Our Responsibility</span></h1>
+          <p class="hero-sub">Complete GST, Income Tax, Accounting &amp; Legal Solutions Under One Roof.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+916394626691">☎ &nbsp; CALL NOW</a>
+            <a class="btn btn-outline" href="https://wa.me/916394626691?text=Hello%20Hemant%20Tiwari%20%26%20Associates%2C%20I%20would%20like%20to%20discuss%20a%20tax%20or%20legal%20matter." target="_blank" rel="noopener">◉ &nbsp; WHATSAPP US</a>
+          </div>
+
+          <div class="hero-points">
+            <div><b>♧</b><span>Expert Guidance<br>from Professionals</span></div>
+            <div><b>▣</b><span>Timely &amp;<br>Accurate Service</span></div>
+            <div><b>◈</b><span>Complete<br>Confidentiality</span></div>
+            <div><b>⌁</b><span>End-to-End<br>Support</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span></span><h2>Our Services</h2><span></span>
+          <p>Practical, reliable and professional support for individuals and businesses.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">GST</div>
+            <h3>GST Registration<br>&amp; Return Filing</h3>
+            <p>Hassle-free GST registration and timely return filing.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">ITR</div>
+            <h3>Income Tax<br>Return (ITR)</h3>
+            <p>Accurate ITR filing for individuals, HUF, firms and companies.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">₹</div>
+            <h3>Accounting &amp;<br>Bookkeeping</h3>
+            <p>Complete bookkeeping and accounting support for your business.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">TDS</div>
+            <h3>TDS Return &amp;<br>Compliance</h3>
+            <p>TDS return filing and compliance management.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">AUD</div>
+            <h3>Tax<br>Audit</h3>
+            <p>Tax audit support under Income Tax and GST requirements.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">§</div>
+            <h3>Notice Reply &amp;<br>Litigation</h3>
+            <p>GST and Income Tax notice reply, appeals and representation.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">BUS</div>
+            <h3>Business<br>Registration</h3>
+            <p>Firm, LLP, Company, MSME, PAN, TAN and more.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>1,000+</strong><span>Happy Clients</span></div>
+        <div><strong>6+</strong><span>Years of Experience</span></div>
+        <div><strong>1,000+</strong><span>Returns &amp; Filings</span></div>
+        <div><strong>100%</strong><span>Client Commitment</span></div>
+      </div>
+    </section>
+
+    <!-- About + Why -->
+    <section class="section about-section" id="about">
+      <div class="container two-col">
+        <div class="about-copy">
+          <div class="mini-heading">ABOUT US</div>
+          <h2>Professional advice with a personal approach.</h2>
+          <p><strong>Hemant Tiwari &amp; Associates</strong> is committed to providing result-oriented tax, accounting and legal solutions with integrity, transparency and professionalism.</p>
+          <p>Our goal is to help individuals and businesses stay compliant, make informed decisions and grow with confidence.</p>
+          <div class="signature">Hemant Tiwari</div>
+          <small>Tax Consultant &amp; Advocate</small>
+        </div>
+
+        <div class="why-copy" id="why-us">
+          <div class="mini-heading">WHY CHOOSE US?</div>
+          <div class="why-grid">
+            <div><b>✓</b><span><strong>Experienced Professionals</strong><small>Practical guidance from experienced professionals.</small></span></div>
+            <div><b>✓</b><span><strong>Personalized Solutions</strong><small>Solutions tailored to your needs and business goals.</small></span></div>
+            <div><b>✓</b><span><strong>Timely Delivery</strong><small>We value your time and focus on timely service.</small></span></div>
+            <div><b>✓</b><span><strong>Transparent Fees</strong><small>Clear and reasonable pricing with no hidden charges.</small></span></div>
+            <div><b>✓</b><span><strong>Client Confidentiality</strong><small>Your documents and information remain confidential.</small></span></div>
+            <div><b>✓</b><span><strong>End-to-End Support</strong><small>Support from consultation through compliance.</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section process-section">
+      <div class="container">
+        <div class="section-heading"><span></span><h2>How We Work</h2><span></span></div>
+        <div class="process-grid">
+          <div class="process-item"><b>01</b><h3>Consultation</h3><p>We understand your requirement.</p></div>
+          <div class="process-item"><b>02</b><h3>Document Collection</h3><p>You share the required documents with us.</p></div>
+          <div class="process-item"><b>03</b><h3>Processing</h3><p>We process and file accurately.</p></div>
+          <div class="process-item"><b>04</b><h3>Completion &amp; Support</h3><p>Timely completion with ongoing support.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container narrow">
+        <div class="section-heading"><span></span><h2>What Our Clients Say</h2><span></span></div>
+        <div class="testimonial-slider">
+          <button class="slider-btn" id="prevTestimonial" aria-label="Previous testimonial">‹</button>
+          <div class="testimonial-card">
+            <div class="quote">“</div>
+            <p id="testimonialText">Hemant Tiwari &amp; Associates has been extremely professional and supportive. All our GST and Income Tax work is handled on time.</p>
+            <div class="stars">★★★★★</div>
+            <strong id="testimonialName">Rajesh Kumar, Business Owner</strong>
+          </div>
+          <button class="slider-btn" id="nextTestimonial" aria-label="Next testimonial">›</button>
+        </div>
+        <p class="testimonial-note">Replace these sample testimonials with your genuine client reviews.</p>
+      </div>
+    </section>
+
+    <!-- FAQ + Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="faq" id="faq">
+          <div class="mini-heading">FREQUENTLY ASKED QUESTIONS</div>
+          <div class="faq-item">
+            <button>Is GST registration mandatory? <span>+</span></button>
+            <div class="faq-answer">GST registration depends on turnover, nature of business and other applicable conditions.</div>
+          </div>
+          <div class="faq-item">
+            <button>What documents are required for ITR filing? <span>+</span></button>
+            <div class="faq-answer">Documents vary by taxpayer. Usually PAN, Aadhaar, bank details, income documents and relevant investment or deduction proofs are needed.</div>
+          </div>
+          <div class="faq-item">
+            <button>How do you charge for your services? <span>+</span></button>
+            <div class="faq-answer">Fees depend on the service and complexity. Contact us for a clear quotation before starting the work.</div>
+          </div>
+          <div class="faq-item">
+            <button>Do you provide notice reply services? <span>+</span></button>
+            <div class="faq-answer">Yes. We provide assistance for applicable GST and Income Tax notices, replies and representation.</div>
+          </div>
+          <div class="faq-item">
+            <button>Can I consult online? <span>+</span></button>
+            <div class="faq-answer">Yes. Contact us by phone or WhatsApp to discuss online consultation availability.</div>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="mini-heading">CONTACT US</div>
+          <a href="tel:+916394626691"><span>☎</span> +91 63946 26691</a>
+          <a href="https://wa.me/916394626691" target="_blank" rel="noopener"><span>◉</span> WhatsApp: +91 63946 26691</a>
+          <a href="mailto:ayodhyahemant@gmail.com"><span>✉</span> ayodhyahemant@gmail.com</a>
+          <div class="address"><span>📍</span><p>Darshan Nagar, Abhay Singh Colony,<br>Kudha Keshvpur Uparhar,<br>Ayodhya - 224135</p></div>
+          <div class="hours"><span>◷</span> Mon - Sat: 10:00 AM - 7:00 PM</div>
+        </div>
+
+        <div class="map-card">
+          <div class="map-fake">
+            <div class="map-grid"></div>
+            <div class="map-pin">●</div>
+            <div class="map-label"><strong>Hemant Tiwari &amp; Associates</strong><br>Darshan Nagar, Ayodhya</div>
+          </div>
+          <a class="map-btn" href="https://maps.app.goo.gl/fJdxTgR2VahqE3kR9" target="_blank" rel="noopener">📍 GET DIRECTIONS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <p class="eyebrow">NEED PROFESSIONAL ASSISTANCE?</p>
+          <h2>Let's take care of your tax &amp; compliance needs.</h2>
+        </div>
+        <a class="btn btn-primary" href="https://wa.me/916394626691?text=Hello%20Hemant%20Tiwari%20%26%20Associates%2C%20I%20would%20like%20a%20consultation." target="_blank" rel="noopener">BOOK A CONSULTATION</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand footer-brand-link" href="#home">
+          <span class="brand-mark">HT</span>
+          <span class="brand-text"><strong>HEMANT TIWARI<br><em>&amp; ASSOCIATES</em></strong><small>TAX CONSULTANT &amp; ADVOCATE</small></span>
+        </a>
+        <p>Providing expert tax, accounting &amp; legal solutions with integrity, transparency and commitment.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="https://wa.me/916394626691" target="_blank" rel="noopener" aria-label="WhatsApp">◉</a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#why-us">Why Choose Us</a><a href="#testimonials">Testimonials</a><a href="#faq">FAQ</a><a href="#contact">Contact Us</a>
+      </div>
+
+      <div>
+        <h3>Our Services</h3>
+        <a href="#services">GST Services</a><a href="#services">Income Tax Services</a><a href="#services">Accounting &amp; Bookkeeping</a><a href="#services">Tax Audit</a><a href="#services">TDS &amp; Compliance</a><a href="#services">Notice Reply &amp; Litigation</a><a href="#services">Business Registration</a>
+      </div>
+
+      <div>
+        <h3>Office Address</h3>
+        <p>📍 Darshan Nagar, Abhay Singh Colony,<br>Kudha Keshvpur Uparhar,<br>Ayodhya - 224135</p>
+        <a href="tel:+916394626691">☎ +91 63946 26691</a>
+        <a href="mailto:ayodhyahemant@gmail.com">✉ ayodhyahemant@gmail.com</a>
+        <p>◷ Mon - Sat: 10:00 AM - 7:00 PM</p>
+      </div>
     </div>
-  </div>
-</section>
 
-<footer class="footer">© 2026 Hemant Tiwari & Associates. All Rights Reserved.</footer>
-<a class="whatsapp" href="https://wa.me/916394626691?text=Hello%20Hemant%20Tiwari%20%26%20Associates" aria-label="WhatsApp">◉</a>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© <span id="year"></span> Hemant Tiwari &amp; Associates. All Rights Reserved.</span>
+        <div><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Disclaimer</a></div>
+      </div>
+    </div>
+  </footer>
 
-<script>
-function sendMail(e){
-  e.preventDefault();
-  const n=document.getElementById('name').value;
-  const em=document.getElementById('email').value;
-  const m=document.getElementById('message').value;
-  const subject=encodeURIComponent('Website Enquiry - '+n);
-  const body=encodeURIComponent('Name: '+n+'\\nEmail: '+em+'\\n\\nRequirement:\\n'+m);
-  window.location.href='mailto:ayodhyahemant@gmail.com?subject='+subject+'&body='+body;
-}
-</script>
+  <a class="floating-whatsapp" href="https://wa.me/916394626691?text=Hello%20Hemant%20Tiwari%20%26%20Associates" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">◉</a>
+
+  <script src="script.js"></script>
 </body>
 </html>
